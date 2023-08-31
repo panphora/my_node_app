@@ -4,8 +4,8 @@
 DROPLET_IP=161.35.10.230
 USER=hyperspace
 DOMAIN=go.panphora.com
-GIT_REPO=<GIT_REPO>
-APP_DIR=~/my_node_app
+GIT_REPO=https://github.com/panphora/my_node_app.git
+APP_DIR=~/www/my_node_app
 
 # SSH into the server
 ssh $USER@$DROPLET_IP << ENDSSH
