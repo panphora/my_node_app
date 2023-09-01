@@ -11,8 +11,8 @@ APP_DIR=~/www/my_node_app
 ssh $USER@$DROPLET_IP << ENDSSH
   
   # Update and install packages
-  sudo apt-get update
-  sudo apt-get install -y nginx git
+  # sudo apt-get update
+  # sudo apt-get install -y nginx git
   
   # Check if Nginx config already exists, if not create one
   if [ ! -f /etc/nginx/sites-available/my_node_app ]; then
